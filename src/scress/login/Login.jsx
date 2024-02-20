@@ -40,6 +40,7 @@ const Login = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-12 col-md-10 order-2 order-lg-1 d-flex flex-column py-3">
                                 <img src={logo} alt="Logo" className="login-logo mx-auto mb-3" />
+                                <span>Victorious Infotech Pvt. Ltd.</span>
                                 <h6 className="mb-5 fw-bold text-center lineAfter text-uppercase d-inline-block">Sign In to your Account</h6>
                                 <Formik initialValues={{ email: "", password: "" }} onSubmit={handleSubmit}>
                                     <Form className="d-flex flex-column gap-3 px-5">
