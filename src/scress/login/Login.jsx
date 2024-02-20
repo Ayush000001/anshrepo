@@ -40,7 +40,7 @@ const Login = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-12 col-md-10 order-2 order-lg-1 d-flex flex-column py-3">
                                 <img src={logo} alt="Logo" className="login-logo mx-auto mb-3" />
-                                <span>Victorious Infotech Pvt. Ltd.</span>
+                                
                                 <h6 className="mb-5 fw-bold text-center lineAfter text-uppercase d-inline-block">Sign In to your Account</h6>
                                 <Formik initialValues={{ email: "", password: "" }} onSubmit={handleSubmit}>
                                     <Form className="d-flex flex-column gap-3 px-5">
@@ -53,7 +53,7 @@ const Login = () => {
                                             <Field autoComplete="off" className="input border rounded px-2 py-2 text-muted fw-bold" name="password" id="password" placeholder="Password..." />
                                         </div>
                                         <div className="mt-2">
-                                            <MDBBtn type="submit" className="w-100" color="success">Login as Super Admin</MDBBtn>
+                                            <MDBBtn type="submit" className="w-100" color="success">Login as Victorious Infotech</MDBBtn>
                                             <MDBBtn type="button" className="w-100 mt-2" color="danger" onClick={handleAdminRole}>Login as Admin</MDBBtn>
                                             <MDBBtn type="button" className="w-100 mt-2" color="info" onClick={handleAuthorRole}>Login as Author</MDBBtn>
                                         </div>
